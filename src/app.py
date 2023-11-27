@@ -5,7 +5,7 @@ from bson import json_util
 from bson.objectid import ObjectId  
 
 app = Flask(__name__)
-app.config['MONGO_URI'] = 'strin de conexion'
+app.config['MONGO_URI'] = 'string de conexion'
 mongo = PyMongo(app)
 
 
